@@ -3,13 +3,9 @@ html {
   width: 100%;
 }
 
-body {
+.departamentos {
   margin-left: 10px;
   margin-right: 10px;
-}
-
-.titulo {
-  text-align: center;
 }
 
 .material-symbols-outlined {
@@ -20,71 +16,11 @@ body {
   'opsz' 48
 }
 
-.btn btn-info {
+.titulo {
   text-align: center;
-}
-
-a link-ubicacion {
-  text-decoration: none;
-}
-
-
-.text-section-body {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-img {
-  height: 50%;
-  width: 50%;
 }
 
 .card-body {
-  text-align: center;
-}
-
-
-.card-text-decripcion {
-  text-align: justify;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.text-description {
-  text-align: justify;
-}
-
-.img_central {
-  width: 100%;
-  height: 100%;
-}
-
-
-.img-center-control-2 {
-  text-align: right;
-}
-
-.img-center-control-3 {
-  text-align: center;
-}
-
-.text-cente {
-  text-align: center;
-}
-
-.img-center {
-  text-align: center;
-}
-
-.card-img {
-  text-align: center;
-}
-
-
-.footer-index {
-  width: 100%;
-  height: 100%;
-  background-color: white;
   text-align: center;
 }
 
@@ -95,17 +31,6 @@ footer {
   text-align: center;
 }
 
-.footer-link img {
-  block-size: 32px;
-  inline-size: 32px;
-}
-
-.fondo img {
-  width: 50%;
-  height:50%;
-}
-
-
 .img {
   height: 50px;
   width: 50px;
@@ -113,29 +38,6 @@ footer {
   margin-right: 2px;
   margin-top: 2px;
   margin-bottom: 2px;
-}
-
-.btns {
-text-align: center;
-}
-
-.btn-group {
-  margin-bottom:20px;
-}
-
-.btn-success {
-  width: 150px;
-  box-sizing: border-box;
-}
-
-.btn-warning {
-  width: 150px;
-  box-sizing: border-box;
-
-}
-
-.pie_accesos-index {
-  color: black;
 }
 
 .pie_accesos {
