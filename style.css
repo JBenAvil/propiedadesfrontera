@@ -31,6 +31,16 @@ footer {
   text-align: center;
 }
 
+.fond_frontera img {
+  text-align: center;
+  width: 40%;
+  height: 40%;
+}
+
+.red {
+  display: initial;
+}
+
 .img {
   height: 50px;
   width: 50px;
