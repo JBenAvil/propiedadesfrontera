@@ -1,0 +1,295 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.departamentos {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 48
+}
+
+.nav-link:hover {
+  color:#BB271A;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.titulo-1 {
+  text-align: center;
+  color: black;
+  text-shadow: 
+      1px 1px 0 #fff,
+      -1px -1px 0 #fff,
+      1px -1px 0 #fff,
+      -1px 1px 0 #fff;
+}
+
+.btn-casas {
+  text-align: center;
+  display: inline-block;
+  background-color: black;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-casas:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn-terrenos {
+  text-align: center;
+  display: inline-block;
+  background-color: #BB271A;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-terrenos:hover {
+  border: solid 1px gray;
+  background-color: white;
+  color:  #BB271A;
+}
+
+.btn-whatsapp {
+  text-align: center;
+  display: inline-block;
+  background-color: #25D366;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-whatsapp:hover {
+  background-color: #128C7E;
+}
+
+
+.__Font__avenir {
+  font-family: Avenir!important
+}
+
+.__Font__avenir input {
+  font-family: Avenir!important
+}
+
+footer {
+  background-color: black;
+  padding: 40px 0;
+  font-size: .9em;
+  color: #fff
+}
+
+.title {
+  color: #FF2800;
+}
+
+footer .footer_sup {
+  margin-bottom: 30px;
+  position: relative
+}
+
+footer .footer_sup .box {
+  display: flex
+}
+
+footer .footer_sup .box .col {
+  width: 25%;
+  display: inline-block
+}
+
+footer .footer_sup .icon_pt {
+  float: left;
+  position: absolute;
+  left: -70px
+}
+
+footer .footer_sup span.title {
+  font-size: 1em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  display: block;
+  width: 100%
+}
+
+footer .footer_sup ul {
+  list-style-type: none
+}
+
+footer .footer_sup ul li {
+  margin: 10px 0
+}
+
+footer .footer_sup ul li a {
+  color: #848e97;
+  transition: .2s all
+}
+
+footer .footer_sup ul li a:hover {
+  color: #FF2800;
+  transition: .2s all
+}
+
+footer .footer_inf .legal {
+  opacity: .5
+}
+
+footer .footer_inf .cactos {
+  height: 30px;
+  float: right;
+  top: -5px;
+  position: relative
+}
+
+footer .footer_inf .cactos img {
+  height: 30px;
+  position: relative;
+  z-index: 999;
+  float: right
+}
+
+footer .footer_inf .cactos .hover_cactos {
+  opacity: 0;
+  transform: translateY(0);
+  background-color: #fff;
+  padding: 12px;
+  padding-bottom: 8px;
+  position: relative;
+  top: -10px;
+  right: -30px;
+  color: #343b44;
+  padding-right: 90px;
+  z-index: 55;
+  line-height: 1;
+  border-radius: 3px;
+  font-size: .9em;
+  transition: .2s all
+}
+
+footer .footer_inf .cactos .hover_cactos o {
+  font-weight: 400;
+  margin-bottom: 2px;
+  display: block;
+  color: #fff
+}
+
+footer .footer_inf .cactos .hover_cactos span {
+  display: block;
+  margin-top: 5px;
+  color: #fff
+}
+
+footer .footer_inf .cactos .hover_cactos ._ov {
+  background-color: #2e66ff;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  right: 70px;
+  z-index: -1;
+  border-radius: 3px 0 0 3px
+}
+
+footer .footer_inf .cactos:hover {
+  width: inherit;
+  transition: .2s all
+}
+
+footer .footer_inf .cactos:hover .hover_cactos {
+  opacity: 1;
+  transform: translateX(-10px);
+  transition: .2s all;
+  -webkit-box-shadow: 0 0 50px 0 rgba(0,0,0,.18);
+  -moz-box-shadow: 0 0 50px 0 rgba(0,0,0,.18);
+  -o-box-shadow: 0 0 50px 0 rgba(0,0,0,.18);
+  -ms-box-shadow: 0 0 50px 0 rgba(0,0,0,.18);
+  box-shadow: 0 0 50px 0 rgba(0,0,0,.18)
+}
+
+@media (max-width: 800px) {
+  footer .icon_pt {
+      display:none
+  }
+
+  footer a.cactos {
+      display: none
+  }
+}
+
+@media (max-width: 600px) {
+  footer .icon_pt {
+      display:none
+  }
+
+  footer .box {
+      display: inline-block!important
+  }
+
+  footer .box .col {
+      width: 49%!important;
+      display: inline-table!important;
+      margin-bottom: 20px!important
+  }
+
+  footer .footer_inf span.mail {
+      display: block;
+      margin-bottom: 5px
+  }
+
+  footer .footer_inf a {
+      display: none
+  }
+}
+
+.red {
+  display: initial;
+}
+
+.img {
+  height: 50px;
+  width: 50px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.pie_accesos {
+  color: white;
+}
+
+.pie_center {
+  text-align: center;
+}
