@@ -7,7 +7,7 @@
     const mensajeCodificado = encodeURIComponent(mensaje);
 
     // Número de WhatsApp del vendedor
-    const numeroWhatsApp = "+56921951687";
+    const numeroWhatsApp = "+56944864414";
 
     // Crea el enlace completo para WhatsApp
     const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${mensajeCodificado}`;
