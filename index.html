@@ -85,42 +85,44 @@
                       </span><br>Home</b></a>
                   </section>
                 </li>
-              <li class="nav-item">
-                <a class="nav-link" href="quienes_somos.html"><b>
-                  <section style="text-align: center;">
-                    <span class="material-symbols-outlined">
-                    person_pin
-                    </span><br>Quienes Somos</b></a>
-                </section>
-              </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="casas.html"><b>
-                  <section style="text-align: center;">
-                    <span class="material-symbols-outlined">
-                    cottage
-                    </span><br>Casas</b></a>
-                </section>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="departamentos.html"><b>
-                  <section style="text-align: center;">
-                  <span class="material-symbols-outlined">
-                    apartment
-                  </span><br>Departamentos</b></a>
+                <!----
+                <li class="nav-item">
+                  <a class="nav-link" href="quienes_somos.html"><b>
+                    <section style="text-align: center;">
+                      <span class="material-symbols-outlined">
+                      person_pin
+                      </span><br>Quienes Somos</b></a>
                   </section>
-              </li>
-
+                </li>
                 
-              <li class="nav-item">
-                <a class="nav-link" href="terrenos.html"><b>
-                  <section style="text-align: center;">
+                <li class="nav-item">
+                  <a class="nav-link" href="casas.html"><b>
+                    <section style="text-align: center;">
+                      <span class="material-symbols-outlined">
+                      cottage
+                      </span><br>Casas</b></a>
+                  </section>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="departamentos.html"><b>
+                    <section style="text-align: center;">
                     <span class="material-symbols-outlined">
-                      home_pin
-                    </span><br>Terrenos</b></a>
-                </section>
-              </li>
+                      apartment
+                    </span><br>Departamentos</b></a>
+                    </section>
+                </li>
+                -->
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#terrenos"><b>
+                    <section style="text-align: center;">
+                      <span class="material-symbols-outlined">
+                        home_pin
+                      </span><br>Terrenos</b></a>
+                  </section>
+                </li>
             </ul>
           </div>
         </div>
@@ -135,136 +137,174 @@
   Hogar o Inversión !</h1>
   <br>
 
-  <!-- sección de casas -->
-  <section style="background-color: #C7C8C8;" class="section-casas" id="casas">
-      <div class="row g-0">
-        <div style="background-color: #C7C8C8; text-align: center;" class="col-md-4">
-          <img src="static/body/casa_venta.png" 
-          width="80%" 
-          height="auto" 
-          class="img-fluid rounded-start" 
-          alt="...">
-        </div>
-     
-        <div style="background-color: #C7C8C8;" class="col-md-8">
-          <div class="card-body" style="margin-left: 10px; margin-right: 10px;">
-            <br>
-            <h3 class="card-title" style="color: white;"><b>Casas en Venta y Arriendo</b></h3>
-            <br>
-            <br>
-            <b class="titulo-1">Revisa Propiedades en Venta y Arriendo para Convertirlas en Tú Próximo hogar o Aprovecha la Oportunidad para Realizar una Buena Inversión.</b>
-            <br>
-            <br>
-            <a href="casas.html" class="btn-casas" style="width: 100%;">
-              <i class="fa fa-search-plus" style="margin-right: 10px;"></i> Ver Casas Disponibles
-            </a> 
+  <!-- sección -->
+  <section style="background-color: rgb(185, 185, 185);">
+    <br>
+    <div class="container-fluid contenedor">
+      <!-- Columna Izquierda -->
+      <div class="columna">
+          <h2 class="titulo">Valle San Andrés<br> Yumbel, Región Biobío</h2>
+          <img src="./terrenos/san_andres/img_san_andrees_1.jpg" alt="Imagen Principal" class="imagen-principal">
+      </div>
+
+      <!-- Columna Derecha -->
+      <div class="columna">
+          <div class="imagenes-derecha">
+              <img src="./terrenos/san_andres/img_san_andrees_2.jpg" alt="Imagen 1" class="imagen-secundaria">
+              <img src="./terrenos/san_andres/img_san_andrees_3.jpg" alt="Imagen 2" class="imagen-secundaria">
+          </div>
+          <div class="boton-ver-mas">
             <br>
             <br>
+            <a href="./terrenos/san_andres.html">
+              <button class="btn-casas">Ver Más</button>
+            </a>
+          </div>
+      </div>
+  </div>
+  <br>
+</section>
+
+
+    <!-- sección tarjeta edificio y sus caracteristicas -->
+    <script>
+      function openModal(imageSrc) {
+        document.getElementById('modalImage').src = imageSrc;
+        var myModal = new bootstrap.Modal(document.getElementById('imageModal'));
+        myModal.show();
+      }
+    </script>
+    
+    <section id=section3>
+      <br>
+    <div class="Heading"></div>
+    <div class="container certificate">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-6 box-shadow">
+            <div class="card-body">
+              <img class="card-img" style="max-width: 100%; height: 100%; cursor: pointer;"
+                src="./terrenos/predio_curanilahue/predio_curanilahue.jpg"
+                alt="Card image cap"
+                onclick="openModal(this.src)">
+              <br>
+              <h1 style="color: #BB271A;" class="card-body"><b>Precios: 23.430,18 UF</b></h1>
+              <br>
+              <!---- seccion de vendido ------
+
+              <div style="background-color: #BB271A; border-radius: 10px;">
+                <br>
+                <h1 
+                style=
+                "margin-left: 20px; 
+                margin-right: 20px;
+                color: white; 
+                border: 2px solid white; 
+                padding-left: 10px; 
+                padding-right: 10px; 
+                padding-top: 10px; 
+                padding-bottom: 10px;" 
+                class="card-body">
+                <b>VENDIDOS</b>
+                </h1>
+                <br>
+              </div>
+              -->
+            </div>
           </div>
         </div>
-      </div>
-  </section>
-
-
-  <!-- sección de terrenos -->
-  <section class="section-casas" id="terrenos">
-    <div class="row g-0">
-      <div class="col-md-8">
-        <div class="card-body" style="margin-left: 10px; margin-right: 10px;">
-          <br>
-          <br>
-          <h3 class="card-title" style="color: gray;"><b>Sitios, Parcelas y Terrenos</b></h3>
-          <br>
-          <br>
-          <b style="color: black;">Encuentra Tú Lugar Perfecto, Aprovecha las Ofertas Disponibles en Sitio, Parcelas y Terrenos.</b>
-          <br>
-          <br>
-          <a href="terrenos.html" class="btn-casas" style="width: 100%;">
-            <i class="fa fa-search-plus" style="margin-right: 10px;"></i> Ver Terrenos Disponibles
-          </a>
-          <br>
-          <br> 
+        <!-- Modal para ampliar la imagen -->
+        <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="imageModalLabel">Vista ampliada</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+              </div>
+              <div class="modal-body text-center">
+                <img id="modalImage" src="" class="img-fluid" alt="Imagen ampliada">
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="col-md-4" style="text-align: center;">
-        <img src="static/body/location.gif" 
-        width="80%" 
-        height="auto" 
-        class="img-fluid rounded-start" 
-        alt="...">
-      </div>
-    </div>  
-  </section>
-
-
-  <!-- sección de departamentos -->
-  <section style="background-color: #C7C8C8;;" class="section-casas" id="departamentos">
-    <div class="row g-0">
-      <div style="background-color: #C7C8C8;; text-align: center;" class="col-md-4">
-        <img src="static/body/departamentos.png" 
-        width="80%" 
-        height="auto" 
-        class="img-fluid rounded-start" 
-        alt="...">
-      </div>
-      <div style="background-color: #C7C8C8;;" class="col-md-8">
-        <div class="card-body" style="margin-left: 10px; margin-right: 10px;">
-          <br>
-          <h3 class="card-title" style="color: white;"><b>Departamentos en Venta y Arriendo</b></h3>
-          <br>
-          <br>
-          <b class="titulo-1">Encuentra los Mejores Departamentos Disponibles y has de Estos Tú Hogar o una Buena Oportunidad de Negocios.</b>
-          <br>
-          <br>
-          <a href="departamentos.html" class="btn-casas" style="width: 100%;">
-            <i class="fa fa-search-plus" style="margin-right: 10px;"></i> Ver Departamentos Disponibles
-          </a>
-          <br>
-          <br> 
+        <br>
+        <div class="col-md-6">
+            <br>
+            <br>
+          <div class="card mb-6 box-shadow">
+            <div class="card-body">
+              <h4 style="color: grey;" class="card-text certificate-text"><b>Predio Forestal</b>
+                <br>Curanilahue, Región Biobío
+              </h4><br>
+              <br>
+              <h4 style="color: grey;" class="card-text certificate-text"><b>CARACTERÍSTICAS</b></h4><br>
+              <section style="text-align: left;">
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                height="24px" 
+                viewBox="0 -960 960 960" 
+                width="24px" 
+                fill="#BB271A">
+                <path 
+                d="M160-240h640v-320H520v-160H160v480Zm0 80q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm0-80v-480 480Z"/>
+                </svg> 150 Hás. Aprox
+                <br>
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                height="24px" 
+                viewBox="0 -960 960 960" 
+                width="24px" 
+                fill="#BB271A">
+                <path 
+                d="M303-80v-149H0l189-274H94l266-377 120 170 120-170 266 377h-94l188 274H658v149H543v-149H418v149H303Zm377-209h165L656-563h89L600-769l-80 115 106 151h-94l148 214Zm-564 0h489L416-563h89L360-769 215-563h90L116-289Zm0 0h189-90 290-89 189-489Zm564 0H532h94-106 225-89 189-165Zm-137 60h115-115Zm178 0Z"/>
+              </svg> Superficie plantada: 73,35 Hás.  
+              </section>
+            <br>
+            <!-- Botón de WhatsApp para más información -->
+            <a href="#" class="btn-whatsapp" style="width: 100%;"  onclick="sendWhatsAppMessage
+             ('Predio Forestal, Curabilahue', '23.430,18  UF')">
+             <i class="fa fa-whatsapp" style="margin-right: 10px;"></i>Contactar al Vendedor</a>
+            </div>
+          </div>
         </div>
-      </div>
-      </div>
     </div>
-  </section>
+    <br>
+    <br>
+    </section>
+
+ 
   </body>
+ 
 
   <!-- muestra de footer 2 -->
 
   <footer class="__Font__avenir">
-		<div class="contenedor contenedor_footer">
+		<div class="contenedor_footer">
 			<div class="footer_sup">
         <div class="box">
 					<div class="col col_1">
-						<img src="static/icon/icon_propiedades_frontera.png" width="70%" height="auto">
+						<img src="static/icon/icon_propiedades_frontera.png" width="50%" height="auto">
 					</div>
 					
 					<div class="col col_2" style="text-align: center;">
-						<ul>
-                <li><h4 class="title">Sobre Nosotros</h34></li>
-								<li><a href="quienes_somos.html">¿Quiénes Somos?</a></li>
-								<li><a href="departamentos.html">Departamentos</a></li>
-								<li><a href="casas.html">Casas</a></li>
-								<li><a href="terrenos.html">Terrenos</a></li>
-							</ul>
-					</div>
-					<div class="col col_3">
-						<ul>
+            
+						
+            <ul>
               <li><h4 class="title">Nuestras Redes</h34></li>
 							<li>
 									<a target="_blank" href=""><img alt="instagram" width="30px" src="static/social_icon/instagram.png"></a>  &nbsp;
 							    <a target="_blank" href=""><img alt="facebook" width="30px" src="static/social_icon/facebook.png"></a> &nbsp;
 	                <a target="_blank" href=""><img alt="WhatsApp" width="30px" src="static/social_icon/wts.png"></a>
 							</li>
-	          </ul>
+            </ul>
+           
 					</div>
-
+					<div class="col col_3">
+            <p class="pie_center">© Copyright Frontera Propiedades SPA<br>
+              Última Actalización 2024</p>
+            <p class="pie_center"><a href="https://www.jbenavil.com/">Desarrollado por J Ben Avil SpA</p></a>
+						
+					</div>
 				</div>
 			</div>
-      <div class="footer_inf">
-        <p class="pie_center">© Copyright Frontera Propiedades SPA<br>
-          Última Actalización 2024</p>
-        <p class="pie_center"><a href="https://www.jbenavil.com/">Desarrollado por J Ben Avil SpA</p></a>
-      </div>
 		</div>
 	</footer>
   </html>
