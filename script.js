@@ -1,7 +1,7 @@
 
-  function sendWhatsAppMessage(imagenURL, titulo, precio, ) {
+  function sendWhatsAppMessage(URL, titulo, precio, ) {
     // Construye el mensaje con la información de la tarjeta y el enlace de la imagen
-    const mensaje = `${imagenURL} \nHola, estoy interesado en la Propiedad:\n ${titulo} \nPrecio: ${precio}`;
+    const mensaje = `${URL} \nHola, estoy interesado en la Propiedad:\n ${titulo} \nPrecio: ${precio}`;
 
     // Codifica el mensaje para usarlo en el enlace de WhatsApp
     const mensajeCodificado = encodeURIComponent(mensaje);
