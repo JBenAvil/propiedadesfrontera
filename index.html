@@ -165,111 +165,62 @@
   </div>
   <br>
 </section>
-
-
-    <!-- sección tarjeta edificio y sus caracteristicas -->
-    <script>
-      function openModal(imageSrc) {
-        document.getElementById('modalImage').src = imageSrc;
-        var myModal = new bootstrap.Modal(document.getElementById('imageModal'));
-        myModal.show();
-      }
-    </script>
-    
-    <section id=section3>
-      <br>
-    <div class="Heading"></div>
-    <div class="container certificate">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="card mb-6 box-shadow">
-            <div class="card-body">
-              <img class="card-img" style="max-width: 100%; height: 100%; cursor: pointer;"
-                src="./terrenos/predio_curanilahue/predio_curanilahue.jpg"
-                alt="Card image cap"
-                onclick="openModal(this.src)">
-              <br>
-              <h1 style="color: #BB271A;" class="card-body"><b>Precios: 23.430,18 UF</b></h1>
-              <br>
-              <!---- seccion de vendido ------
-
-              <div style="background-color: #BB271A; border-radius: 10px;">
-                <br>
-                <h1 
-                style=
-                "margin-left: 20px; 
-                margin-right: 20px;
-                color: white; 
-                border: 2px solid white; 
-                padding-left: 10px; 
-                padding-right: 10px; 
-                padding-top: 10px; 
-                padding-bottom: 10px;" 
-                class="card-body">
-                <b>VENDIDOS</b>
-                </h1>
-                <br>
-              </div>
-              -->
-            </div>
-          </div>
+<br>
+<br>
+<section id="terrenos">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card mb-6 box-shadow">
+        <div class="card-body">
+          <img class="card-img" style="max-width: 100%; height: 100%;"
+            src="./terrenos/predio_curanilahue/predio_curanilahue.jpg"
+            alt="Card image cap">
+          <br>
+          <h1 style="color: #BB271A;" class="card-body"><b>Precios: 23.430,18 UF</b></h1>
+          <br>
         </div>
-        <!-- Modal para ampliar la imagen -->
-        <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="imageModalLabel">Vista ampliada</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-              </div>
-              <div class="modal-body text-center">
-                <img id="modalImage" src="" class="img-fluid" alt="Imagen ampliada">
-              </div>
-            </div>
-          </div>
-        </div>
-        <br>
-        <div class="col-md-6">
-            <br>
-            <br>
-          <div class="card mb-6 box-shadow">
-            <div class="card-body">
-              <h4 style="color: grey;" class="card-text certificate-text"><b>Predio Forestal</b>
-                <br>Curanilahue, Región Biobío
-              </h4><br>
-              <br>
-              <h4 style="color: grey;" class="card-text certificate-text"><b>CARACTERÍSTICAS</b></h4><br>
-              <section style="text-align: left;">
-                <svg xmlns="http://www.w3.org/2000/svg" 
-                height="24px" 
-                viewBox="0 -960 960 960" 
-                width="24px" 
-                fill="#BB271A">
-                <path 
-                d="M160-240h640v-320H520v-160H160v480Zm0 80q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm0-80v-480 480Z"/>
-                </svg> 150 Hás. Aprox
-                <br>
-                <svg xmlns="http://www.w3.org/2000/svg" 
-                height="24px" 
-                viewBox="0 -960 960 960" 
-                width="24px" 
-                fill="#BB271A">
-                <path 
-                d="M303-80v-149H0l189-274H94l266-377 120 170 120-170 266 377h-94l188 274H658v149H543v-149H418v149H303Zm377-209h165L656-563h89L600-769l-80 115 106 151h-94l148 214Zm-564 0h489L416-563h89L360-769 215-563h90L116-289Zm0 0h189-90 290-89 189-489Zm564 0H532h94-106 225-89 189-165Zm-137 60h115-115Zm178 0Z"/>
-              </svg> Superficie plantada: 73,35 Hás.  
-              </section>
-            <br>
-            <!-- Botón de WhatsApp para más información -->
-            <a href="#" class="btn-whatsapp" style="width: 100%;"  onclick="sendWhatsAppMessage
-             ('Predio Forestal, Curabilahue', '23.430,18  UF')">
-             <i class="fa fa-whatsapp" style="margin-right: 10px;"></i>Contactar al Vendedor</a>
-            </div>
-          </div>
-        </div>
+      </div>
     </div>
-    <br>
-    <br>
-    </section>
+    <div class="col-md-6">
+        <br>
+        <br>
+      <div class="card mb-6 box-shadow">
+        <div class="card-body">
+          <h4 style="color: grey;" class="card-text certificate-text"><b>Predio Forestal</b>
+            <br>Curanilahue, Región Biobío
+          </h4><br>
+          <br>
+          <h4 style="color: grey;" class="card-text certificate-text"><b>CARACTERÍSTICAS</b></h4><br>
+          <section style="text-align: left;">
+            <svg xmlns="http://www.w3.org/2000/svg" 
+            height="24px" 
+            viewBox="0 -960 960 960" 
+            width="24px" 
+            fill="#BB271A">
+            <path 
+            d="M160-240h640v-320H520v-160H160v480Zm0 80q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm0-80v-480 480Z"/>
+            </svg> 150 Hás. Aprox
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" 
+            height="24px" 
+            viewBox="0 -960 960 960" 
+            width="24px" 
+            fill="#BB271A">
+            <path 
+            d="M303-80v-149H0l189-274H94l266-377 120 170 120-170 266 377h-94l188 274H658v149H543v-149H418v149H303Zm377-209h165L656-563h89L600-769l-80 115 106 151h-94l148 214Zm-564 0h489L416-563h89L360-769 215-563h90L116-289Zm0 0h189-90 290-89 189-489Zm564 0H532h94-106 225-89 189-165Zm-137 60h115-115Zm178 0Z"/>
+          </svg> Superficie plantada: 73,35 Hás.  
+          </section>
+        <br>
+        <a href="./terrenos/predio_curanilahue.html">
+          <button class="btn-casas">Ver Más</button>
+        </a>
+        </div>
+      </div>
+    </div>
+</div>
+<br>
+<br>
+</section>
 
 <section style="background-color: rgb(185, 185, 185);" id="arriendos">
   <br>
